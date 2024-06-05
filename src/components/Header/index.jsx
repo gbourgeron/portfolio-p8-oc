@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import './index.scss';
 
 function Header() {
     const location = useLocation();

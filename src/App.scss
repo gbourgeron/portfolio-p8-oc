@@ -27,5 +27,8 @@ body {
 }
 
 main {
-    margin: 0 100px;
+    @include flex-dir(column);
+    @include position-el(center, center);
+    gap: 70px;
+    margin: 100px;
 }
