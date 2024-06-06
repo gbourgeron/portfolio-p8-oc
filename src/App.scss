@@ -16,7 +16,7 @@ $main-font: 'Inter', sans-serif;
 }
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: $main-font;
 }
@@ -33,5 +33,11 @@ main {
     @include position-el(center, center);
     gap: 70px;
     margin: 100px auto;
+    padding: 0 250px;
     max-width: 1440px;
+}
+
+.page-title {
+    font-weight: 200;
+    font-size: 48px;
 }

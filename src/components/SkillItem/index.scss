@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    .skill-name {
+        font-weight: bold;
+        text-transform: lowercase;
+    }
+
+    .skill-level {
+        display: flex;
+
+        .rectangle {
+            width: 35px;
+            height: 15px;
+            background-color: $light-color;
+            margin: 0 6px;
+            border-radius: 5px;
+
+            &.filled {
+                background-color: $primary-color;
+            }
+        }
+    }
+}
