@@ -1,15 +1,15 @@
 [
     {
       "id": 1,
-      "name": "Formation Project A",
-      "projectDescription": "This project is a part of the training program aimed at building a web application using modern frontend technologies.",
-      "workDescription": "I worked on the frontend development using React, implemented responsive design and handled API integrations.",
+      "name": "BOOKI",
+      "projectDescription": "Booki est un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+      "workDescription": "Ma mission ici était d'implémenter les maquettes Figma des versions desktop, tablette et mobile de la page d'accueil du site Booki avec HTML et CSS.",
+      "skillsEvaluated": "",
       "date": "202301",
-      "githubLink": "https://github.com/user/formationProjectA",
-      "siteLink": "https://formationProjectA.com",
+      "githubLink": "https://github.com/gbourgeron/booki-projet2.git",
       "projectType": "Formation",
-      "workType": ["frontend", "backend"],
-      "image": "https://example.com/path/to/imageA.jpg"
+      "workType": ["frontend"],
+      "image": "imgProjects/booki.jpg"
     },
     {
       "id": 2,
@@ -18,10 +18,9 @@
       "workDescription": "My role included setting up the server architecture, implementing RESTful APIs, and optimizing database queries.",
       "date": "202302",
       "githubLink": "https://github.com/user/proProjectB",
-      "siteLink": "https://proProjectB.com",
       "projectType": "Pro",
       "workType": ["backend", "gestion de projet"],
-      "image": "https://example.com/path/to/imageB.jpg"
+      "image": "http://www.wallpapers13.com/wp-content/uploads/2015/12/Nature-Lake-Bled.-Desktop-background-image.jpg"
     },
     {
       "id": 3,

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ProjectItem from '../../components/ProjectItem/index';
 import projectsData from '../../data/projects.json';
-// import './index.scss';
 
 function Projects() {
     const [projects, setProjects] = useState([]);
@@ -25,6 +24,7 @@ function Projects() {
                         siteLink={project.siteLink}
                         projectType={project.projectType}
                         workType={project.workType}
+                        image={project.image}
                     />
                 ))}
             </div>
