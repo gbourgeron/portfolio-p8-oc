@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Formation Project A",
+      "projectDescription": "This project is a part of the training program aimed at building a web application using modern frontend technologies.",
+      "workDescription": "I worked on the frontend development using React, implemented responsive design and handled API integrations.",
+      "date": "202301",
+      "githubLink": "https://github.com/user/formationProjectA",
+      "siteLink": "https://formationProjectA.com",
+      "projectType": "Formation",
+      "workType": ["frontend", "backend"],
+      "image": "https://example.com/path/to/imageA.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pro Project B",
+      "projectDescription": "This professional project involved developing a scalable backend system for handling large volumes of data.",
+      "workDescription": "My role included setting up the server architecture, implementing RESTful APIs, and optimizing database queries.",
+      "date": "202302",
+      "githubLink": "https://github.com/user/proProjectB",
+      "siteLink": "https://proProjectB.com",
+      "projectType": "Pro",
+      "workType": ["backend", "gestion de projet"],
+      "image": "https://example.com/path/to/imageB.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Perso Project C",
+      "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
+      "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
+      "date": "202303",
+      "githubLink": "https://github.com/user/persoProjectC",
+      "siteLink": "https://persoProjectC.com",
+      "projectType": "Perso",
+      "workType": ["gestion de projet"],
+      "image": "https://example.com/path/to/imageC.jpg"
+    }
+  ]
+  
