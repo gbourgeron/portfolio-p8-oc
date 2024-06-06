@@ -1,0 +1,43 @@
+@import '../../App.scss';
+
+.page-title {
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.box-skills {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    border-radius: 40px;
+    background-color: $dark-color;
+
+    .title-box {
+        font-size: 24px;
+        font-weight: 200;
+        color: $light-color;
+    }
+
+    .skills {
+        @include flex-dir(row);
+        @include position-el(flex-start, flex-start);
+
+        margin-top: 30px;
+
+        .block-skills {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .skill-list {
+            list-style-type: none;
+            color: $primary-color;
+            font-size: 20px;
+            font-weight: 600;
+            li {
+                padding: 8px;
+            }
+        }
+    }
+
+}

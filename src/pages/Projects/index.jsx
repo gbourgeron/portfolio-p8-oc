@@ -1,7 +1,7 @@
 function Projects() {
     return (
         <main>
-            PROJETS
+            <h1 className="page-title">projets</h1>
         </main>
     );
 }

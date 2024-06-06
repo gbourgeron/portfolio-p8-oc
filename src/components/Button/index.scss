@@ -1,9 +1,9 @@
 @import '../../App.scss';
 
 .btn {
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 40px;
-
+    border: none;
     font-size: 20px;
     color: $primary-color;
     background-color: $dark-color;

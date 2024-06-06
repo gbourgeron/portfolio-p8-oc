@@ -22,13 +22,16 @@ $main-font: 'Inter', sans-serif;
 }
 
 body {
-    max-width: 1440px;
     background-color: $primary-color;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 166, 0, 0.3) 1px, transparent 1px);
+    background-size: 48px 48px;
 }
 
 main {
     @include flex-dir(column);
     @include position-el(center, center);
     gap: 70px;
-    margin: 100px;
+    margin: 100px auto;
+    max-width: 1440px;
 }
