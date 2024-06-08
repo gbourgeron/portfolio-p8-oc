@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.scss';
 import { formatDate } from '../../utils/date';
 import gitHubLogo from '../../assets/github.svg';
 import wwwLogo from '../../assets/www.svg';
 
 function ProjectItem({ name, projectDescription, workDescription, date, githubLink, siteLink, projectType, workType, image }) {
-    console.log("Chemin d'accès à l'image :", image);
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => {
+        setModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+    };
+
     return (
         <div className="project-item">
             <div className='project-infos'>
@@ -38,7 +47,16 @@ function ProjectItem({ name, projectDescription, workDescription, date, githubLi
                 <p className="project-description"><span className='intro-description'>Le projet : </span>{projectDescription}</p>
                 <p className="work-description"><span className='intro-description'> Ma mission : </span>{workDescription}</p>
             </div>
-            <img className='project-image' src={image} alt="" />
+            <img className='project-image' src={image} alt="" onClick={openModal} />
+
+            {modalOpen && (
+                <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal">
+                        <img className="modal-image" src={image} alt="" />
+                        <button className="close-modal" onClick={closeModal}>Fermer</button>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
