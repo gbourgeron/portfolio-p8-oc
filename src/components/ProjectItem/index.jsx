@@ -17,8 +17,16 @@ function ProjectItem({ name, projectDescription, workDescription, date, githubLi
                         ))}
                     </div>
                     <div className="project-links">
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer"><img className='rounded-link' src={ gitHubLogo } alt='' /></a>
-                        {siteLink && <a href={siteLink} target="_blank" rel="noopener noreferrer"><img className='rounded-link' src={ wwwLogo } alt='' /></a>}
+                        {githubLink && (
+                            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                                <img className='rounded-link' src={ gitHubLogo } alt='' />
+                            </a>
+                        )}  
+                        {siteLink && (
+                            <a href={siteLink} target="_blank" rel="noopener noreferrer">
+                                <img className='rounded-link' src={ wwwLogo } alt='' />
+                            </a>
+                        )}
                     </div>
                 </div>
                 <div className='infos-2'>
