@@ -13,26 +13,70 @@
     },
     {
       "id": 2,
-      "name": "Pro Project B",
-      "projectDescription": "This professional project involved developing a scalable backend system for handling large volumes of data.",
-      "workDescription": "My role included setting up the server architecture, implementing RESTful APIs, and optimizing database queries.",
+      "name": "SOPHIE BLUEL",
+      "projectDescription": "Création du site web de Sophie Bluel, architecte d'intérieur",
+      "workDescription": "Créer une page dynamique avec JavaScript en récupérant les données utilisateur.",
       "date": "202302",
-      "githubLink": "https://github.com/user/proProjectB",
-      "projectType": "Pro",
-      "workType": ["backend", "gestion de projet"],
-      "image": "http://www.wallpapers13.com/wp-content/uploads/2015/12/Nature-Lake-Bled.-Desktop-background-image.jpg"
+      "githubLink": "https://github.com/gbourgeron/projet3-portfolio-architecte-sophie-bluel.git",
+      "projectType": "formation",
+      "workType": ["frontend"],
+      "image": "imgProjects/bluel.jpg"
     },
     {
       "id": 3,
-      "name": "Perso Project C",
+      "name": "Menu Maker by Qwenta",
       "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
       "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
       "date": "202303",
-      "githubLink": "https://github.com/user/persoProjectC",
-      "siteLink": "https://persoProjectC.com",
-      "projectType": "Perso",
+      "projectType": "formation",
       "workType": ["gestion de projet"],
-      "image": "https://example.com/path/to/imageC.jpg"
+      "image": "imgProjects/menumaker.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nina Carducci",
+      "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
+      "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
+      "date": "202304",
+      "githubLink": "https://github.com/gbourgeron/nina-carducci-p5-oc.gitC",
+      "siteLink": "https://gbourgeron.github.io/nina-carducci-p5-oc/",
+      "projectType": "Perso",
+      "workType": ["seo"],
+      "image": "imgProjects/carducci.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kasa",
+      "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
+      "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
+      "date": "202305",
+      "githubLink": "https://github.com/gbourgeron/kasa-p6-oc.git",
+      "projectType": "Formation",
+      "workType": ["frontend"],
+      "image": "imgProjects/kasa.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mon Vieux Grimoire",
+      "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
+      "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
+      "date": "202306",
+      "githubLink": "https://github.com/gbourgeron/vieux-grimoire-p7-oc.git",
+      "projectType": "Formation",
+      "workType": ["backend"],
+      "image": "imgProjects/vieuxgrimoire.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Portfolio",
+      "projectDescription": "A personal project to create a task management app to help users organize their daily activities efficiently.",
+      "workDescription": "I designed the UI/UX, developed the frontend using React, and set up a backend with Node.js and MongoDB.",
+      "date": "202303",
+      "githubLink": "https://github.com/gbourgeron/portfolio-p8-oc.git",
+      "siteLink": "https://persoProjectC.com",
+      "projectType": "Formation",
+      "workType": ["frontend"],
+      "image": "imgProjects/portfolio.jpg"
     }
   ]
   
