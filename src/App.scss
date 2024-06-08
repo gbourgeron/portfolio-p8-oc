@@ -35,9 +35,32 @@ main {
     margin: 100px auto;
     padding: 0 250px;
     max-width: 1440px;
+
+    @media screen and (max-width:1150px) {
+        gap: 40px;
+        margin: 40px;
+        padding: 70px;
+    }
+    @media screen and (max-width:768px) {
+        margin: 30px;
+        padding: 50px;
+    }
+    @media screen and (max-width:320px) {
+        margin: 20px 0px;
+        padding: 0px;
+    }
+}
+
+a {
+    color: $dark-color;
 }
 
 .page-title {
     font-weight: 200;
     font-size: 48px;
+
+    @media screen and (max-width:320px) {
+        font-weight: 400;
+        font-size: 28px;
+    }
 }

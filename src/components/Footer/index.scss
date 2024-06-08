@@ -7,4 +7,12 @@ footer {
 
     color: $primary-color;
     background-color: $dark-color;
+
+    .text-footer {
+        text-align: center;
+
+        @media screen and (max-width: 320px) {
+            font-size: 12px;
+        }
+    }
 }

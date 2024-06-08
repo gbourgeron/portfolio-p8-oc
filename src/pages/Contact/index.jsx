@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './index.scss';
-import Button from '../../components/Button';
 
 function Contact() {
   const [name, setName] = useState('');

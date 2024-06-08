@@ -7,6 +7,10 @@ header {
     margin: auto;
     height: 100px;
     max-width: 1440px;
+
+    @media screen and (max-width:320px) {
+        height: 70px;
+    }
     
     .navbar {
         margin-right: 20px;

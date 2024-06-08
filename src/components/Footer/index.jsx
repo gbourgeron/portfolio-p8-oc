@@ -4,7 +4,7 @@ function Footer() {
     const thisYear = new Date().getFullYear();
     return (
         <footer>
-            <p>&copy; {thisYear} Gurvan Bourgeron - Tous droits réservés.</p>
+            <p className='text-footer'>&copy; {thisYear} Gurvan Bourgeron - Tous droits réservés.</p>
         </footer>
     )
 }
