@@ -8,18 +8,29 @@ header {
     height: 100px;
     max-width: 1440px;
 
-    @media screen and (max-width:320px) {
-        height: 70px;
+    .menu-toggle {
+        display: none;
+        font-size: 30px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-right: 20px;
     }
-    
+
     .navbar {
         margin-right: 20px;
+        display: flex;
+        flex-direction: row;
 
         .navbar__link {
             padding: 5px 40px;
             text-align: center;
             text-decoration: none;
             border-radius: 10px 0 10px 0;
+
+            @media screen and (max-width: 720px) {
+                padding: 5px 20px;
+            }
 
             &.active {
                 color: $primary-color;
@@ -30,5 +41,44 @@ header {
                 box-shadow: 2px 2px 5px $dark-color;
             }
         }
+    }
+
+    @media screen and (max-width: 570px) {
+        .menu-toggle {
+            display: block;
+        }
+
+        .navbar {
+            flex-direction: column;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            background-color: none;
+            width: 100%;
+            max-width: 220px;
+            display: none;
+
+            &.open {
+                display: flex;
+            }
+
+            .navbar__link {
+                box-sizing: border-box;
+                padding: 15px;
+                width: 100%;
+                border-radius: 10px;
+                color: $primary-color;
+                background-color: $dark-color;
+
+                &:hover {
+                    color: $dark-color;
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        height: 70px;
     }
 }
