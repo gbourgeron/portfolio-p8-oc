@@ -14,15 +14,15 @@
         { "name": "VSCode", "check": true }
     ],
     "projectManagement": [
-        { "name": "méthodolgie Agile", "check": true },
+        { "name": "méthodologie Agile", "check": true },
         { "name": "Notion", "check": true },
         { "name": "Trello", "check": true }
 
     ],
     "softSkills": [
         { "name": "Communication", "check": true },
-        { "name": "Teamwork", "check": true },
-        { "name": "Problem-solving", "check": true }
+        { "name": "travail en équipe", "check": true },
+        { "name": "résolution de problèmes", "check": true }
     ]
   }
   
