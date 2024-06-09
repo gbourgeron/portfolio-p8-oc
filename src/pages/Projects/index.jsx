@@ -19,6 +19,7 @@ function Projects() {
                         name={project.name}
                         projectDescription={project.projectDescription}
                         workDescription={project.workDescription}
+                        skillsDescription={project.skillsDescription}
                         date={project.date}
                         githubLink={project.githubLink}
                         siteLink={project.siteLink}

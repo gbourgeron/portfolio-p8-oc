@@ -6,7 +6,9 @@
         { "name": "React", "level": 2 },
         { "name": "Node.js", "level": 2 },
         { "name": "Express", "level": 2 },
-        { "name": "MongoDB", "level": 2 }
+        { "name": "MongoDB", "level": 2 },
+        { "name": "responsive design", "level": 3 },
+        { "name": "SEO", "level": 3 }
     ],
     "tools": [
         { "name": "Git / GitHub", "check": true },

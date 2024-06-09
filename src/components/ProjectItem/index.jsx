@@ -4,7 +4,7 @@ import { formatDate } from '../../utils/date';
 import gitHubLogo from '../../assets/github.svg';
 import wwwLogo from '../../assets/www.svg';
 
-function ProjectItem({ name, projectDescription, workDescription, date, githubLink, siteLink, projectType, workType, image }) {
+function ProjectItem({ name, projectDescription, workDescription, skillsDescription, date, githubLink, siteLink, projectType, workType, image }) {
     const [modalOpen, setModalOpen] = useState(false);
 
     const openModal = () => {
@@ -46,6 +46,7 @@ function ProjectItem({ name, projectDescription, workDescription, date, githubLi
             <div className='description'>
                 <p className="project-description"><span className='intro-description'>Le projet : </span>{projectDescription}</p>
                 <p className="work-description"><span className='intro-description'> Ma mission : </span>{workDescription}</p>
+                <p className="skills-description"><span className='intro-description'> Compétences développées : </span>{skillsDescription}</p>
             </div>
             <img className='project-image' src={image} alt="" onClick={openModal} />
 
