@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Button from '../../components/Button';
 import ProjectItem from '../../components/ProjectItem/index';
 import projectsData from '../../data/projects.json';
 import './index.scss';
@@ -49,6 +50,7 @@ function Projects() {
                     />
                 ))}
             </div>
+            <Button to="/contact">Contactez-moi vite</Button>
         </main>
     );
 }

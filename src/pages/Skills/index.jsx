@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Button from '../../components/Button';
 import SkillItem from '../../components/SkillItem';
 import skillsData from '../../data/skills.json';
 import './index.scss';
@@ -75,6 +76,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
+            <Button to="/projects">Découvrez mes précédentes missions</Button>
         </main>
     );
 }
