@@ -1,17 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import ProjectItem from '../../components/ProjectItem/index';
 import projectsData from '../../data/projects.json';
+import './index.scss';
 
 function Projects() {
     const [projects, setProjects] = useState([]);
+    const [sortOrder, setSortOrder] = useState('desc');
 
     useEffect(() => {
-        setProjects(projectsData);
-    }, []);
+        setProjects(sortProjects(projectsData, sortOrder));
+    }, [sortOrder]);
+
+    const sortProjects = (projects, order) => {
+        return [...projects].sort((a, b) => {
+            const dateA = new Date(a.date);
+            const dateB = new Date(b.date);
+            return order === 'asc' ? dateA - dateB : dateB - dateA;
+        });
+    };
+
+    const toggleSortOrder = () => {
+        setSortOrder(prevOrder => prevOrder === 'asc' ? 'desc' : 'asc');
+    };
+
 
     return (
         <main>
             <h1 className="page-title">projets</h1>
+            <div className="filter-container">
+                <button className="filter-button" onClick={toggleSortOrder}>
+                    Trier par date: {sortOrder === 'asc' ? 'Les plus anciens' : 'Les plus récents'}
+                </button>
+            </div>
             <div className="projects-list">
                 {projects.map(project => (
                     <ProjectItem

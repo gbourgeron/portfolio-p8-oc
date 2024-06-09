@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.filter-button {
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    color: $dark-color;
+    background: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
