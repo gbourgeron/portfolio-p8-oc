@@ -10,7 +10,7 @@ function Contact() {
     e.preventDefault();
     const subject = encodeURIComponent(`Message from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-    const mailtoLink = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:gbourgeron@gmail.com?subject=${subject}&body=${body}`;
     
     // Open the user's email client with pre-filled details
     window.location.href = mailtoLink;
