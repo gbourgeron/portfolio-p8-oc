@@ -19,7 +19,7 @@
       "skillsDescription": "javascript, html, css, git / github",
       "date": "202302",
       "githubLink": "https://github.com/gbourgeron/projet3-portfolio-architecte-sophie-bluel.git",
-      "projectType": "formation",
+      "projectType": "Formation",
       "workType": ["frontend"],
       "image": "imgProjects/bluel.jpg"
     },
@@ -30,7 +30,7 @@
       "workDescription": "Mon travail ici était de préparer la préparation et le développement du site en mettant en place notamment une méthodologie Agile et en présentant le projet au Product Owner. La détermination du temps alloué aux futures tâches fut la partie la plus difficile dans ce projet",
       "skillsDescription": "gestion de projet, agile, notion, trello",
       "date": "202303",
-      "projectType": "formation",
+      "projectType": "Formation",
       "workType": ["gestion de projet"],
       "image": "imgProjects/menumaker.jpg"
     },
@@ -43,7 +43,7 @@
       "date": "202304",
       "githubLink": "https://github.com/gbourgeron/nina-carducci-p5-oc.gitC",
       "siteLink": "https://gbourgeron.github.io/nina-carducci-p5-oc/",
-      "projectType": "Perso",
+      "projectType": "Formation",
       "workType": ["seo"],
       "image": "imgProjects/carducci.jpg"
     },
