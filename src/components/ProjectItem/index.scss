@@ -128,15 +128,21 @@
 }
 
 .modal {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+    height: 66%;
+    background-color: $primary-color;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .modal-image {
     max-width: 100%;
-    max-height: 60%;
+    max-height: 100%;
+    border-radius: 15px;
 }
 
 .close-modal {
